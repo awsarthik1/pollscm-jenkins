@@ -1,0 +1,21 @@
+#!/bin/bash
+echo start of the script
+echo
+echo script by karthik
+echo 
+#variables
+p=pwd
+l=ls
+w=whoami
+d=date
+c='cal 2021'
+
+$p
+echo
+$l
+echo
+$w
+echo
+$d
+echo
+$c

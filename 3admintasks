@@ -1,0 +1,13 @@
+#!/bin/bash 
+echo start of the script
+echo 
+top | head -10
+echo
+df -h
+echo 
+free -m
+echo 
+uptime
+echo 
+iostat
+echo end of the script

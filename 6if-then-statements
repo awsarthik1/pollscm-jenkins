@@ -1,0 +1,21 @@
+#!/bin/bash
+echo 
+count=10
+if [ $count -eq 100 ] 
+then 
+  echo 'count is 100'
+  echo the value of count is $count 
+  echo count is equal to 100
+else
+  echo 'count is not 100'
+  echo the value of count is $count 
+fi
+
+if [ $count > 100 ]
+then 
+  echo 'count is smaller than 100'
+else
+  echo 'count is greater than 100'
+fi
+
+echo the count value is $count

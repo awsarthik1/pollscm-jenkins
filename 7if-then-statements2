@@ -1,0 +1,23 @@
+#!/bin/bash
+echo
+echo 
+if [ -e /home/karthik/scripts/error.txt ]
+then 
+  echo error.txt file exists
+else
+  echo 	file doesnt exists
+fi
+
+touch error.txt
+
+echo "do you like to work in it? (y/n)"
+read a
+
+if [ $a == y ]
+then 
+echo you are awesome
+else
+echo you should try it, it is a good field
+fi
+
+

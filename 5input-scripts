@@ -1,0 +1,25 @@
+#!/bin/bash
+a=`hostname`
+echo 
+echo Hello, Myname is Karthik
+echo
+echo My Server name is also $a
+echo
+echo what is your name
+read yourname
+echo 
+echo Heloo $yourname
+echo
+echo what is your favorite show
+read b
+echo what is game do you most like 
+read c
+echo
+echo your favorite game $c is awesome 
+echo your favorite show $b is my favorite too 
+echo
+echo what a co-incidence, how do you feel about this?
+read d
+echo that feeling $d surprises me 
+d=`uptime`
+echo by the way this is my system uptime $d

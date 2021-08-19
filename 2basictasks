@@ -1,0 +1,15 @@
+#!/bin/bash
+echo start of the script
+echo
+pwd
+echo
+ls
+echo
+whoami
+echo
+date 
+echo
+cal
+echo
+rm a b c
+echo end off the script 
